@@ -4,7 +4,7 @@ import "./App.css"
 let imagesArray = [];
 
 let i;
-for(i = 0; i < 58; ++i){
+for(i = 0; i < 57; ++i){
   imagesArray.push({
     alt: "Image1's alt text",
     src: `./v1-images/${i}.png`,

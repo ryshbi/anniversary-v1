@@ -5,10 +5,18 @@ let imagesArray = [];
 
 let i;
 for(i = 0; i < 57; ++i){
-  imagesArray.push({
-    alt: "Image1's alt text",
-    src: `./v1-images/${i}.png`,
-  })
+  if(i == 43){
+    imagesArray.push({
+      alt: `Image${i}`,
+      src: `./v1-images/${i}.PNG`,
+    }) 
+  }
+  else{
+    imagesArray.push({
+      alt: `Image${i}`,
+      src: `./v1-images/${i}.png`,
+    })
+  }
 }
 
 const App = () => {
